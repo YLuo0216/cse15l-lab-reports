@@ -34,3 +34,5 @@ Horizontal rule:
 print "I am coded text!"
 ```
 <yil089@ucsd.edu>
+
+![image](image_making2_2.jpg)
