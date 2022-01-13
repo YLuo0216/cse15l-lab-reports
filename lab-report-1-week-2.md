@@ -17,14 +17,14 @@
 4. Moving Files with scp
 - create a java file called WhereAmI.java with content provided in the lab1 instructions
 - run it with javac and java
-- move the file to the course specific accound folder using the command scp WhereAmI.java cs15lwi22aew@ieng6.ucsd.edu:~/
+- move the file to the course specific account on the server using the command scp WhereAmI.java cs15lwi22aew@ieng6.ucsd.edu:~/
 - log in to ieng6 and use ls to see the file
 - run it with javac and java  
 ![image](Picture4.png)
 ![image](Picture5.png)
 5. Setting an SSH Key
-- set up SSH key with the command ssh-keygen
-- copy the public key to the .ssh directory of your user account on the server
+- set up SSH key with the command ssh-keygen (I have a windows machine so I followed the windows instructions)
+- copy the public key to the .ssh directory of your user account on the server using the scp command
 - log in without the password  
 ![image](Picture6.png)
 ![image](Picture7.png)
