@@ -5,6 +5,8 @@ Hello World!
 
 # This is a Heading
 
+[Lab Report 1](lab-report-1-week-2.html)
+
 ## Another Heading
 
 I am trying to write some paragraphs.
