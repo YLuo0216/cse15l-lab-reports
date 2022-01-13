@@ -4,5 +4,7 @@ Hello World!
 #This is a Heading
 ---
 #Another Heading
+```
 # code block
 print "I am coded text!"
+```
