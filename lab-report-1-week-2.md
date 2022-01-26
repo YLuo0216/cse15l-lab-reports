@@ -36,4 +36,6 @@
 ## **6. Optimizing Remote Running**
 - I wrote a long command that would copy the changed document to the server and run it on the server in one step
 - this command can be reused everytime I need to change and run something on the server, I just need to change the file name  
+- running code on the server this way requires minimal keystrokes: for the first time running, one needs to copy the line of command and paste it into the terminal (4 keystrokes), then change the file name in 4 places (1 copy + 4 pastes = 10 keystrokes), and then running the command (enter, 1 keystroke). The first time running can be completed within 15 keystrokes. After the command is in the terminal, using it and running it again only requires 2 keystrokes: the up arrow and enter.
+- compared to running 4 separate commands(the scp, ssh, javac and java commands), running all 4 in one command saves 6 keystrokes(given commands are already in the terminal available for use by typing the up arrow and enter).
 ![image](Picture8.png)
