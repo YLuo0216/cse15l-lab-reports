@@ -9,6 +9,8 @@ Hello World!
 
 [Lab Report 1](https://YLuo0216.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[Lab Report Week 4](lab-report-week-4.html)
+
 ## Another Heading
 
 I am trying to write some paragraphs.
