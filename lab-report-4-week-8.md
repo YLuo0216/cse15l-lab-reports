@@ -19,7 +19,7 @@
 - For review group: Junit test failed. Output: ![review1](review1.png)
 
 ## Snippet 2
-- should produce: `[a.com(()), example.com]`
+- should produce: `[a.com, a.com(()), example.com]`
 - code for MarkdownParseTest.java  
 ```
 @Test
