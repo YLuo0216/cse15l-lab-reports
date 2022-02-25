@@ -8,10 +8,10 @@
 - should produce: ``[`google.com]``
 - code for MarkdownParseTest.java  
 ``@Test
-    public void labReportSnippet1() throws IOException {
-        Path filename = Path.of("lab-report-snippet1.md");
-        String contents = Files.readString(filename);
-        assertEquals(List.of("`google.com"), MarkdownParse.getLinks(contents));
+    public void labReportSnippet1() throws IOException {  
+        Path filename = Path.of("lab-report-snippet1.md");  
+        String contents = Files.readString(filename);  
+        assertEquals(List.of("`google.com"), MarkdownParse.getLinks(contents));  
     }``
 
 ## Snippet 2
