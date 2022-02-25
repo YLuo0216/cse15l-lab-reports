@@ -7,7 +7,7 @@
 ## Snippet 1
 - should produce: ``[`google.com]``
 - code for MarkdownParseTest.java  
-    ``@Test
+        ``@Test
     public void labReportSnippet1() throws IOException {
         Path filename = Path.of("lab-report-snippet1.md");
         String contents = Files.readString(filename);
