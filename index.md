@@ -13,6 +13,8 @@ Hello World!
 
 [Lab Report Week 6](https://yluo0216.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
+[Lab Report Week 8](https://yluo0216.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
 ## Another Heading
 
 I am trying to write some paragraphs.
