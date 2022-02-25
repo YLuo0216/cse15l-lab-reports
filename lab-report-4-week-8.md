@@ -29,8 +29,8 @@
         assertEquals(List.of("a.com(())", "example.com"), MarkdownParse.getLinks(contents));
     }
 ```  
-- For my repo:  Junit test failed. Output: ![mine3](mine2.png)
-- For review group: Junit test failed. Output: ![review3](review2.png)
+- For my repo:  Junit test failed. Output: ![mine2](mine2.png)
+- For review group: Junit test failed. Output: ![review2](review2.png)
 
 ## Snippet 3
 - should produce: `[https://ucsd-cse15l-w22.github.io/]`
