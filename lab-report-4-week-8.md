@@ -18,6 +18,24 @@
 
 ## Snippet 2
 - should produce: `[a.com(()), example.com]`
+- code for MarkdownParseTest.java  
+```
+@Test
+    public void labReportSnippet2() throws IOException {
+        Path filename = Path.of("lab-report-snippet2.md");
+        String contents = Files.readString(filename);
+        assertEquals(List.of("a.com(())", "example.com"), MarkdownParse.getLinks(contents));
+    }
+```
 
 ## Snippet 3
 - should produce: `[https://ucsd-cse15l-w22.github.io/]`
+- code for MarkdownParseTest.java  
+```
+@Test
+    public void labReportSnippet3() throws IOException {
+        Path filename = Path.of("lab-report-snippet3.md");
+        String contents = Files.readString(filename);
+        assertEquals(List.of("https://ucsd-cse15l-w22.github.io/"), MarkdownParse.getLinks(contents));
+    }
+```
