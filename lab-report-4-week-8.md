@@ -26,7 +26,7 @@
     public void labReportSnippet2() throws IOException {
         Path filename = Path.of("lab-report-snippet2.md");
         String contents = Files.readString(filename);
-        assertEquals(List.of("a.com(())", "example.com"), MarkdownParse.getLinks(contents));
+        assertEquals(List.of("a.com", "a.com(())", "example.com"), MarkdownParse.getLinks(contents));
     }
 ```  
 - For my repo:  Junit test failed. Output: ![mine2](mine2.png)
