@@ -5,7 +5,7 @@
 -[review group repo](https://github.com/samw0627/markdownparse2/blob/main/MarkdownParse.java)
 
 ## Snippet 1
-- should produce: `[`\google.com]`
+- should produce: `[\`google.com]`
 - code for 
 
 ## Snippet 2
