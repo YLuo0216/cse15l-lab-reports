@@ -5,11 +5,11 @@
 -[review group repo](https://github.com/samw0627/markdownparse2/blob/main/MarkdownParse.java)
 
 ## Snippet 1
-- should produce: [\`google.com]\
+- should produce: `[`google.com]`
 - code for 
 
 ## Snippet 2
-- should produce: [\a.com(()), example.com]\
+- should produce: `[a.com(()), example.com]`
 
 ## Snippet 3
-- should produce: [\https://ucsd-cse15l-w22.github.io/]\
+- should produce: `[https://ucsd-cse15l-w22.github.io/]`
