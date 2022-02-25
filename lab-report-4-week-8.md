@@ -14,7 +14,9 @@
         String contents = Files.readString(filename);
         assertEquals(List.of("`google.com"), MarkdownParse.getLinks(contents));
     }
-```
+```  
+- For my repo:  Junit test failed. Output: ![mine1](mine1.png)
+- For review group: Junit test failed. Output: ![review1](review1.png)
 
 ## Snippet 2
 - should produce: `[a.com(()), example.com]`
@@ -26,7 +28,9 @@
         String contents = Files.readString(filename);
         assertEquals(List.of("a.com(())", "example.com"), MarkdownParse.getLinks(contents));
     }
-```
+```  
+- For my repo:  Junit test failed. Output: ![mine1](mine1.png)
+- For review group: Junit test failed. Output: ![review1](review1.png)
 
 ## Snippet 3
 - should produce: `[https://ucsd-cse15l-w22.github.io/]`
@@ -38,4 +42,6 @@
         String contents = Files.readString(filename);
         assertEquals(List.of("https://ucsd-cse15l-w22.github.io/"), MarkdownParse.getLinks(contents));
     }
-```
+```  
+- For my repo:  Junit test failed. Output: ![mine1](mine1.png)
+- For review group: Junit test failed. Output: ![review1](review1.png)
