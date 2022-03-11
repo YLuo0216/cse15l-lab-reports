@@ -12,7 +12,7 @@ I searched manually for different results. I compared the results.txt file I got
 ![my-result-1](my-result-1.png)
 - explanation:
 I think the class implementation handles this test case correctly: since there is a line break inside the parentheses, it is no longer a valid link.
-problematic portion of code:
+- problematic portion of code:
 ```
 if (openParen - nextCloseBracket == 1) {
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
