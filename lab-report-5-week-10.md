@@ -10,9 +10,8 @@ I searched manually for different results. I compared the results.txt file I got
 ![class-result-1](class-result-1.png)
 - My implementation result:
 ![my-result-1](my-result-1.png)
-- explanation:
-I think the class implementation handles this test case correctly: since there is a line break inside the parentheses, it is no longer a valid link.
-- problematic portion of code:
+- explanation:  
+I think the class implementation handles this test case correctly: since there is a line break inside the parentheses, it is no longer a valid link. My imlementation is problematic in this section:
 ```
 if (openParen - nextCloseBracket == 1) {
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
