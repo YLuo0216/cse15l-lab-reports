@@ -15,6 +15,8 @@ Hello World!
 
 [Lab Report Week 8](https://yluo0216.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+[Lab Report Week 10](https://yluo0216.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
 ## Another Heading
 
 I am trying to write some paragraphs.
