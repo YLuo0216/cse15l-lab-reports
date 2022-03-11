@@ -14,7 +14,7 @@ I searched manually for different results. I compared the results.txt file I got
 ## Difference 2: test 519.md
 - the test case:
 ![test-case-2](test-case-2.png)
-class implementation result:
+- class implementation result:
 ![class-result-2](class-result-2.png)
-My implementation result:
+- My implementation result:
 ![my-result-2](my-result-2.png)
